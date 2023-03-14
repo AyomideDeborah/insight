@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="styles.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  
+  <script src="script.js"></script>
+
+  
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+    
+  <div class="container">
+      <nav class="nav-bar" id="nav">
+      
+        <div class="logo">
+          <img src="images/logo.svg" id="myImage" alt="">
+        </div>
+        
+        <div class="hamburger">
+          <button class="tog"><img  id="toggle" src="images/icon-hamburger.svg"  alt="" onclick="changeIcon(this)"></button>
+        </div>
+        
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="#" class="nav-link">Product</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+        <li class="login-link"><a class="active nav-link" href="#">Login</a></li>
+        
+        </ul>
+        
+    </nav>
+    <div class="flex-container">
+      <div class="left-flex-item">
+       
+        <p class="para"> <span class="para1">New</span> Monograph Dashboard</p>
+        <h2>Powerful insights into your team</h2>
+        <p class="para2">Project planning and time tracking for agile teams</p>
+        <button class="demo">Schedule a demo</button><p class="para3">to see a live preview</p>
+      </div>
+  
+        
+        <div class="right-flex-item">
+          <div class="shape">
+          
+          </div>
+          <img src="images/illustration-devices.svg" alt="">
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Meee</a>.
+      </p>
+    </footer>
+  </div>
+  
+  
+</body>
+</html>
